@@ -1,0 +1,242 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	user-select: none;
+}
+.navarea{
+	height: 30vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 2fr 4fr 13fr 4fr 2fr;
+	grid-template-rows: 1fr 2fr;
+}
+img.navlogo{
+	height: 140px;
+	margin-left: 15%;
+}
+img.navphone{
+	height: 30px;
+	margin-top: 15px;
+	float: left;
+}
+.box{
+	border: 1px solid none;
+}
+.part1{
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.navlocation{
+	float: left;
+	width: 25px;
+	margin-top: 17px;
+	margin-left: 60vh;
+}
+.part3p{
+	margin-top: 0px;
+	font-size: 18px;
+}
+.part3p a{
+	margin-top: 20px;
+	float: left;
+}
+.part3p select{
+	margin-top: 10px;
+	color: #ff8139;
+	background-color: white;
+	height: 50px; 
+	width: 170px;
+	float: left
+}
+.select-css { 
+	display: block; 
+	font-size: 20px; 
+	font-family: sans-serif; 
+	font-weight: 700; 
+	color: #444; 
+	line-height: 1.3; 
+	padding: .6em 1.4em .5em .8em; width: 100%; 
+	max-width: 100%; 
+	box-sizing: border-box; 
+	margin: 0; 
+	border: 1px solid white;
+ 	box-shadow: 0 1px 0 1px white; 
+	border-radius: .5em;
+ 	-moz-appearance: none;
+ 	-webkit-appearance: none;
+ 	appearance: none;
+ 	background-color: #fff; 
+	
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+	background-size: .65em auto, 100%; 
+} 
+.select-css::-ms-expand { 
+	display: none; 
+} 
+.select-css:hover { 
+	border-color: #ff8139; 
+} 
+.select-css:focus { 
+	border-color: #aaa; 
+ 	box-shadow: 0 0 1px 3px #ff8139;
+ 	box-shadow: 0 0 0 3px -moz-mac-focusring; 
+	color: #222;
+ 	outline: none; 
+} 
+.select-css option { 
+	font-weight:normal; 
+} 
+*[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
+	background-position: left .7em top 50%, 0 0; 
+	padding: .6em .8em .5em 1.4em; 
+}
+.part4 a{
+	float: left;
+	margin-top: 23px;
+	text-decoration: none;
+	margin-left: 5px;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+.part4 a:hover{
+	text-decoration: none;
+	color: black;
+}
+.part4 img{
+	margin-top: 0px;
+	float: left;
+}
+.part5{
+	padding-top: 5px;
+}
+.part5 img:hover{
+	cursor: pointer;
+}
+.part6 {
+
+}
+
+
+
+
+.mainmenubtn {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    font-size: 24px;
+    font-family: Arial;
+    width: 100px;
+    outline: none;
+}
+.mainmenubtn a{
+    color: black;
+    text-decoration: none;
+}
+.mainmenubtn a:hover{
+    color: #ff8139;
+    text-decoration: none;
+}
+.mainmenubtn:hover{
+	color: #ff8139;
+	outline: none;
+}
+img.navphoto{
+    height: 25px;
+}
+.dropdown {
+    margin-left: 40px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    border: 1px solid none;
+}
+.dropdown-child {
+    display: none;
+    border: 1px solid #ff8139;
+    min-width: 0.5em;
+}
+.dropdown-child a {
+    border: 1px solid #ff8139;
+    font-family: Arial;
+    font-size: 23px;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+}
+.dropdown-child a:hover{
+    background-color: #FFC67E;
+    text-decoration: none;
+    color: black;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+
+.navmenus{
+	float: right;
+	font-size: 24px;
+	margin-top: 40px;
+	margin-right: 80px;
+	margin-bottom: 40px;
+}
+.navmenus a{
+	text-decoration: none;
+	color: black;
+}
+.navmenus a:hover{
+	text-decoration: none;
+	color: #ff8139;
+}
+.part7{
+	text-align: center;
+}
+.store{
+	height: 50px;
+	width: 140px;
+	border-radius: 15px;
+	background-color: #ff8139;
+	border: 1px solid #ff8139; 
+	margin-top: 40px;
+	margin-left: 15px;
+	outline: none;
+}
+.store:hover{
+	cursor: pointer;
+	background-color: #E47336;
+	text-decoration: none;
+	border-color: #E47336;
+	outline: none;
+}
+.store:active{
+	background-color: #FF9951;
+	text-decoration: none;
+}
+.part7p{
+	font-size: 22px;
+	color: white;
+	margin-top: 5px;
+}
+.part7 a{
+	text-decoration: none;
+	color: white;
+}
+.part7 a:hover{
+	text-decoration: none;
+	color: white;
+}
+.part8{
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 5;
+	grid-column-end: 6;
+}

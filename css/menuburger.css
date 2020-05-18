@@ -1,0 +1,13 @@
+#out4{
+	padding-left: 13%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	height: 1000px;
+}
+main.body{
+	width: 100%; 
+	height: 1000px; 
+	background-color: none; 
+	margin-top: 20px;
+}

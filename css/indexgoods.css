@@ -1,0 +1,80 @@
+.bodypart2{
+	padding-left: 13%;
+}
+.bodypart4{
+	padding-left: 13%;
+}
+.bodypart6{
+	padding-left: 13%;
+}
+.single-goods1{
+	width: 280px;
+	height: 350px;
+	margin: 20px;
+	float: left;
+	text-align: 10px;
+	padding-left: 25px;
+}
+.single-goods1 img{
+	width: 80%;	
+}
+.single-goods1 h3{
+	margin-left: 0px;
+}
+.single-goods1 p.p2{
+	float: left;
+	font-size: 20px;
+	padding-top: 8px;
+}
+.single-goods1 div{
+	width: 120px;
+	height: 45px;
+	border: 2px solid #ff8139;
+	border-radius: 10px;
+	background-color: white;
+	color: #ff8139;
+	float: left;
+	margin-left: 35px;
+	padding-top: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+.single-goods1 h5{
+	padding-top: 2px;
+}
+.single-goods1 div:hover{
+	background-color: #EAEAEA;
+}
+
+
+
+/*миникарзина index*/
+.input2{
+	width: 12%;
+	height: 50px;
+	background-color:  #FF9951;
+	z-index: 2;
+	position: absolute;
+	border-radius: 0 0 20px 0;
+	margin-top: 600px;
+}
+.input2 p{
+	float: left;
+	padding-top: 13px;
+	padding-left: 5px;
+}
+.input2 p.p2{
+	float: right;
+	padding-right: 5px;
+}
+.input2 form{
+	float: left;
+}
+input {
+	width: 30%;
+	height: 50px;
+	background-color:  #FF9951;
+	border: 1px solid  #FF9951;
+	float: center;
+}
+

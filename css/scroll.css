@@ -1,0 +1,15 @@
+.header_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    padding-left: 13%;
+	padding-right: 10%;
+}
+.header_fixed2{
+	position: fixed;
+	top: 20vh;
+	left: 0;
+	padding-top: 0px;
+	padding-left: 0px;
+}

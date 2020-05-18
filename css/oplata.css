@@ -1,0 +1,156 @@
+*{
+	font-family: Arial;
+	margin: 0 auto;
+}
+.div1{
+	background-color: #ACACAC;
+	width: 100%;
+	height: 83.8vh;
+	padding-top: 100px;
+}
+.div2{
+	background-color: white;
+	width: 50%;
+	height: 450px;
+	border-radius: 15px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+}
+.grids{
+	border: 1px solid none;
+}
+.city{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	width: 100%;
+	height: 100%;
+	padding-top: 30px;
+}
+.city h4{
+	float: left;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+.city select{
+	float: left;
+	margin-bottom: 30px;
+	border: 1px solid #ff8139;
+	height: 30px;
+	width: 50%;
+	border-radius: 10px;
+	outline: none;
+}
+.city select:active{
+	border: 1px solid #ff8139;
+	border-radius: 10px;
+	text-decoration: none;
+	outline: none;
+}
+.select-css2:focus{
+	background-color: #FFD890;
+}
+.select-css2:hover{
+	background-color: #FFD890;
+}
+.dom{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	width: 100%;
+	height: 100%;
+	padding-top: 30px;
+}
+.dom input{
+	border: 1px solid grey; 
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+}
+.kv{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+}
+.kv input {
+	width: 70px;
+	height: 30px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	outline: none;
+	margin-left: 20px;
+}
+.dr{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.dr input{
+	width: 80%;
+	height: 30px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	outline: none;
+}
+.kka{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.kka input{
+	width: 80%;
+	height: 70px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	outline: none;
+}
+.button{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.button button{
+	font-size: 20px;
+	width: 200px;
+	height: 40px;
+	border: 1px solid #FF9A52;
+	background-color: #FF9A52;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+}
+.button button:hover{
+	background-color: #ff8139;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+}
+.button a:hover{
+	text-decoration: none;
+	color: black;
+}

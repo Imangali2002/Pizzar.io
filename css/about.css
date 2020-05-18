@@ -1,0 +1,70 @@
+main.body{
+	width: 100%; 
+	height: 1900px;
+	background-color: none; 
+	margin-top: 20px;
+	font-family: Arial;
+}
+.border{
+	background-color: grey;
+	width: 100%;
+	height: 2px;
+}
+.logo{
+	width: 100%;
+	padding-left: 40%;
+	padding-top: 40px;
+}
+.logo img{
+	width: 30%;
+}
+.tex{
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.tex h3{
+	color: #FF953B;
+}
+.photos{
+	float: left;
+	width: 32.5%;
+	height: 250px;
+	margin-left: 7px;
+	margin-top: 7px;
+	position: inherit;
+}
+.photos img{
+	width: 100%;
+	height: 250px;
+}
+.partner1{
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 50px;
+}
+.partnerh3{
+	color: #FF953B;
+	margin-top: 780px;
+}
+.partner{
+	float: left;
+	width: 32.5%;
+	height: 250px;
+	margin-left: 7px;
+	margin-top: 7px;
+	position: inherit;
+}
+.partner img{
+	width: 80%;
+	height: 80%;
+}
+.chocofood img{
+	margin-top: 20%;
+	height: 20%;
+}
+.chocolife img{
+	width: 65%;
+	margin-left: 10%;
+}
